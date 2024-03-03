@@ -1,0 +1,17 @@
+div {
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    border: 2px solid rgb(0, 32, 0);
+    box-shadow: 5px 8px 5px;
+    padding: 20px;
+}
+
+h1 {
+
+    font-size: 24px;
+}
+
+p {
+    font-size: 12px;
+}

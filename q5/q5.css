@@ -1,0 +1,17 @@
+li {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+li:first-child {
+    background-color: darkorange;
+    color: black;
+}
+
+li:last-child {
+    background-color: darkblue;
+    border: none;
+}

@@ -1,0 +1,39 @@
+table {
+    border: 1px solid lightgray;
+    border-radius: 5px ;
+    margin: 8px;
+    background-color: black;
+    color: white;
+}
+
+tr:first-child {
+    background-color: gray;
+    color: black;
+    border-radius: 5px ;
+}
+
+tr {
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px ;
+}
+
+th {
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px ;
+}
+
+td {
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px ;
+}
+
+td:last-child {
+    background-color: red;
+}
+
+th:last-child {
+    background-color: red;
+}

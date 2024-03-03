@@ -1,0 +1,67 @@
+.card {
+    background-color: gainsboro;
+    color: black;
+    padding: 2px;
+    border: 2px solid rgb(255, 100, 0);
+    box-shadow: 4px 4px 9px rgba(255, 100, 0, 0.5);
+    border-radius: 18px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    max-width: 250px;
+    max-height: 300px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+div {
+    margin: 12px;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+    background-color: green;
+    color: rgb(0, 24, 6);
+    border-radius: 8px;
+    border: 2px solid darkgreen;
+    padding: 3px;
+    color: white;
+    margin: 2px;
+    margin-left: 50px;
+}
+
+button:hover {
+    background-color: darkgreen;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid rgb(0, 72, 0);
+    padding: 3px;
+    margin: 2px;
+    margin-left: 50px;
+}
+
+.product {
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 600px) {}

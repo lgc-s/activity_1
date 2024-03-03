@@ -1,0 +1,8 @@
+div {
+    height: 300px;
+    width: 300px;
+    border-radius: 18px;
+    margin: 20px 30px;
+    border: 2px solid rgb(255, 100, 0);
+    box-shadow: 5px 10px;
+}
